@@ -2,6 +2,13 @@
 //Magic Methods
 
 /*
+The __get() and __set() methods are generally used together and are designed for working with properties that are not defined in a class (or its parents). 
+__get($property) - automatically invoked when an undefined property is accessed 
+__set($property, $value) - automatically invoked when a value is assigned to an undefined property
+The __get() method must be defned with one parameter 
+The __set() must be declared with two arguments. 
+The __call() method is invoked when an undefined method is called
+
 __get($property)
 __set($property, $value)
 __call($method, $arg_array)
