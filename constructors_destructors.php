@@ -1,12 +1,11 @@
 <?php 
 	/**
-	 * @Ahsanul Haque Rifat
-   * Software Engineer
+	 * 
 	 */
 	class Userdata {
 		
-		public $user:
-		public $userId:
+		public $user;
+		public $userId;
 
 		public function __construct($userName, $userId)
 		{
