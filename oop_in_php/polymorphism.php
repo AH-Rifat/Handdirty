@@ -1,7 +1,7 @@
 <?php
 // Polymorphism
-// When we start to extend classes, and add functionality to them which wasn’t there previously, and even override existing methods (functions), this is called polymorphism. 
-
+// When we start to extend classes, and add functionality to them which wasn’t there previously, and even override existing methods (functions),
+//  this is called polymorphism.
 // The basis of polymorphism is Inheritance and overridden methods.
 
   class UserData{
