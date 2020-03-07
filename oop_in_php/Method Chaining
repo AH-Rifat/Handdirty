@@ -1,0 +1,21 @@
+<?php
+// Method chaining
+class CarBrandName{
+    function nissan():CarBrandName{
+        echo "Nissan";
+    }
+
+    function toyota():CarBrandName{
+        echo "Toyota";
+    }
+
+    function oliva():CarBrandName{
+        echo "Oliva";
+    }
+}
+
+$obj = new CarBrandName();
+
+$obj->nissan()->oliva()->toyota();
+
+
